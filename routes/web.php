@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/contacto', function () {
+
+    return "contacto";
+})->name('contacto');
+
 Route::get('/custom', function () {
     $msg="Hola noi";
     return view('custom',['msg'=>$msg]);
