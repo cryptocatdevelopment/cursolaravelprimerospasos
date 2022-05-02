@@ -8,6 +8,6 @@
 </head>
 <body>
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias architecto numquam molestiae, atque esse nesciunt obcaecati. Quos ducimus ex ratione, eaque aspernatur deserunt, recusandae autem, dicta repudiandae suscipit obcaecati neque.
-    <?php echo $msg ?>
+    {{$msg}}
 </body>
 </html>
